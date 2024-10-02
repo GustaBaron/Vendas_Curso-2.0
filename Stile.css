@@ -1,6 +1,4 @@
-/*
-Estilização da pagina Login_page
-*/
+
 
 .form_OpenCss{
     width: 40%;
@@ -8,11 +6,6 @@ Estilização da pagina Login_page
     align-items: center;
     justify-content: center;
     
-}
-.Container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 .Buttom_CriarConta{
     display: flex;
@@ -26,8 +19,13 @@ Estilização da pagina Login_page
     flex-direction: column;
     
 }
+.Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .custom-header {
-    background-color: #3d3838;
+    background-color: #000931;
     padding: 10px 0;
 }
 .search-bar {
@@ -39,7 +37,7 @@ Estilização da pagina Login_page
     border-radius: 0;
 }
 .btn-plan:hover {
-    background-color: #000000;
+    background-color: #000931;
     color: white;
 }
 .nav-link {
@@ -47,5 +45,5 @@ Estilização da pagina Login_page
     margin-left: 15px;
 }
 .nav-link:hover {
-    color: #9b0fd3;
+    color: #979aa5;
 }
