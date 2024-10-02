@@ -1,58 +1,63 @@
-
-
-.form_OpenCss{
+.form_OpenCss {
     width: 40%;
     height: 10%;
     align-items: center;
     justify-content: center;
-    
+
 }
-.Buttom_CriarConta{
+
+.Buttom_CriarConta {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#Entrar_bottom{
+
+#Entrar_bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
-    
+
 }
-.Container1{
+
+.Container1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url(https://img.freepik.com/vetores-premium/fundo-de-conceito-de-tecnologia-futura-de-circuito-cibernetico-de-olhos-azuis_42077-5063.jpghttps://img.freepik.com/vetores-premium/fundo-de-conceito-de-tecnologia-futura-de-circuito-cibernetico-de-olhos-azuis_42077-5063.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #000931;
 
 }
 
 .custom-header {
-    background-color:  #000931;
+    background-color: #000931;
     padding: 10px 0;
 }
+
 .search-bar {
     max-width: 500px;
 }
+
 .btn-plan {
     background-color: white;
     color: black;
     border-radius: 0;
 }
+
 .btn-plan:hover {
     background-color: #000931;
     color: white;
 }
+
 .nav-link {
     color: white;
     margin-left: 15px;
 }
+
 .nav-link:hover {
     color: #000931;
 }
-.Entre_contato{
+
+.Entre_contato {
     align-items: center;
 }

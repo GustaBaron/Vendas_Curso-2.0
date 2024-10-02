@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recuperar Senha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Stile.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <header class="custom-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="Index.html" class="navbar-brand text-white">HIGH_TECH</a>
+            <form class="d-flex search-bar">
+                <input class="form-control me-2" type="search" placeholder="O que você quer aprender?"
+                    aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+            </form>
+            <nav class="nav">
+                <a class="nav-link" href="informações.html">Informações</a>
+                <a class="nav-link" href="empresas.html">Para Empresas</a>
+            </nav>
+            <a href="Login_page.html" class="btn btn-plan">Login</a>
+        </div>
+    </header>
+    
+    <body>
+        <br><br><br><br><br><br>
+        <div class="Container1" style="background-color:whitesmoke" style="align-items: ;">
+            <div class="form-group" style="padding: 5%;">
+                <h2>Recuperar Senha</h2>
+                <form action="/enviar-recuperacao" method="post">
+                    <label for="email">Digite seu e-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+                <p>
+                    <a href="Login_page.html">Voltar para o login</a>
+                </p>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <footer class="footer" style="background-color: #000931;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" style="color: bisque;">
+                        <h5>CURSOS</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Cursos de Programação</a></li>
+                            <li><a href="#">Cursos de Front-end</a></li>
+                            <li><a href="#">Cursos de Data Science</a></li>
+                            <li><a href="#">Cursos de IA</a></li>
+                            <li><a href="#">Cursos de DevOps</a></li>
+                            <li><a href="#">Cursos de UX & Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="color: bisque;">
+                        <h5>TECNOLOGIAS</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">NoSQL</a></li>
+                            <li><a href="#">C#</a></li>
+                            <li><a href="#">Computação</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="color: bisque;">
+                        <h5>CURSOS UNIVERSITÁRIOS FIAP</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Graduação</a></li>
+                            <li><a href="#">Pós-graduação</a></li>
+                            <li><a href="#">MBA</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom" style="color: bisque;">
+                    <p>© 2024 Empresa. Todos os direitos reservados ao Fabricante.</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
+
