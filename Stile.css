@@ -17,15 +17,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     
 }
-.Container{
+.Container1{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-de-conceito-de-tecnologia-futura-de-circuito-cibernetico-de-olhos-azuis_42077-5063.jpghttps://img.freepik.com/vetores-premium/fundo-de-conceito-de-tecnologia-futura-de-circuito-cibernetico-de-olhos-azuis_42077-5063.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
+
 .custom-header {
-    background-color: #000931;
+    background-color:  #000931;
     padding: 10px 0;
 }
 .search-bar {
@@ -45,5 +51,8 @@
     margin-left: 15px;
 }
 .nav-link:hover {
-    color: #979aa5;
+    color: #000931;
+}
+.Entre_contato{
+    align-items: center;
 }
